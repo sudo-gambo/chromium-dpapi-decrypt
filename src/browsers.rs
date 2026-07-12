@@ -19,4 +19,16 @@ pub const BROWSERS: &[BrowserInfo] = &[
         name: "brave",
         local_state_dir: "BraveSoftware\\Brave-Browser\\User Data",
     },
+    BrowserInfo {
+        name: "opera",
+        local_state_dir: "Opera Software\\Opera Stable", 
+    },
+    BrowserInfo {
+        name: "opera_gx",
+        local_state_dir: "Opera Software\\Opera GX Stable", 
+    },
+    BrowserInfo {
+        name: "vivaldi",
+        local_state_dir: "Vivaldi\\User Data", 
+    }
 ];
