@@ -27,7 +27,7 @@ Because DPAPI is tied to the current Windows user, you must run the tool **as th
 - Brave
 - (any Chromium fork that stores `encrypted_key` under `os_crypt` in `Local State`)
 
-You can easily add more by editing the `BROWSERS` array in `src/main.rs`.
+You can easily add more by editing the `BROWSERS` array in `src/browsers.rs`.
 
 ---
 
